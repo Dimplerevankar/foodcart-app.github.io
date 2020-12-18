@@ -1,0 +1,52 @@
+/*navbar*/
+#navbar{
+flex-direction:column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#home{
+    height: 300px;
+    padding: 3px 30px;
+
+}
+#home::before{
+    height:480px;
+}
+#home p{
+    font-size: 15px;
+}
+/*services section*/
+#services{
+   flex-direction: column;
+}
+#services .box{
+    padding: 10px;
+    margin: 3px 0px;
+    margin-bottom: 50px;
+}
+/*clients*/
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    height:43px;
+    width:66px;
+    padding: 2px 6px;
+}
+/*utility classes*/
+.h-primary{
+    font-size: 25px;
+}
+.btn{
+    font-size: 13px;
+    padding:4px 8px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 110px;
+}
